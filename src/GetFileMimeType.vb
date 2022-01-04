@@ -48,7 +48,7 @@ Public Class GetFilesMime
               If (CompereArrays(GetBytesFromArray(file, 2), MimeTypes.BMP)) Then
                      Return "image/bmp"
               ElseIf (CompereArrays(GetBytesFromArray(file, 8), MimeTypes.DOC)) Then
-                     Return "application/msword"
+                     Return "application/msword" 
               ElseIf (CompereArrays(GetBytesFromArray(file, 2), MimeTypes.EXE_DLL)) Then
                      Return "application/x-msdownload" 'both use same mime type
               ElseIf (CompereArrays(GetBytesFromArray(file, 4), MimeTypes.GIF)) Then

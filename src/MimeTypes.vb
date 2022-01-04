@@ -5,7 +5,7 @@ Public Class MimeTypes
        Public Shared ReadOnly DOC As Byte() = {208, 207, 17, 224, 161, 177, 26, 225}
        Public Shared ReadOnly EXE_DLL As Byte() = {77, 90}
        Public Shared ReadOnly GIF As Byte() = {71, 73, 70, 56}
-       Public Shared ReadOnly ICO As Byte() = {0, 0, 1, 0}
+       Public Shared ReadOnly ICO As Byte() = {0, 0, 1, 0}   
        Public Shared ReadOnly JPG As Byte() = {255, 216, 255}
        Public Shared ReadOnly MP3 As Byte() = {255, 251, 48}
        Public Shared ReadOnly OGG As Byte() = {79, 103, 103, 83, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0}
